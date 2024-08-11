@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 # Load data
-final_data = pd.read_csv('D:\\Skills\\Finance\\FinalDataGovernance.csv')
+final_data = pd.read_csv('FinalDataGovernance.csv')
 
 
 def show():

@@ -8,7 +8,7 @@ import io
 
 @st.cache
 def load_data():
-    return pd.read_csv('D:\\Skills\\Finance\\FinalDataGovernance.csv')
+    return pd.read_csv('FinalDataGovernance.csv')
 
 
 df = load_data()
